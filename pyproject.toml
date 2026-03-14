@@ -1,0 +1,9 @@
+[project]
+name = "pokemon-30"
+version = "0.1.0"
+description = "Download Pokemon 30 logo assets from Serebii."
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "requests>=2.32.5",
+]
