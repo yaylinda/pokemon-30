@@ -4,6 +4,11 @@ Download and store named logo sets published on Serebii.
 
 The first tracked set in this repo is [Pokemon 30](https://www.serebii.net/pokemon30/). The checked-in snapshot for that set was downloaded on 2026-03-14 and contains 1,137 PNG assets.
 
+## Documentation
+
+- [Implementation guide](docs/IMPLEMENTATION.md)
+- [Design notes](docs/DESIGN.md)
+
 ## Requirements
 
 - `uv`
