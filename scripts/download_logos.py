@@ -11,4 +11,4 @@ from serebii_logos.cli import main
 
 
 if __name__ == "__main__":
-    raise SystemExit(main(["download", "pokemon30", *sys.argv[1:]]))
+    raise SystemExit(main())

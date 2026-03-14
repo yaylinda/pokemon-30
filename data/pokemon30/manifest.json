@@ -1,6 +1,9 @@
 {
+  "set_id": "pokemon30",
+  "set_name": "Pokemon 30",
   "page_url": "https://www.serebii.net/pokemon30/",
-  "generated_at": "2026-03-14T23:32:17.777413+00:00",
+  "generated_at": "2026-03-14T23:42:11.862940+00:00",
+  "output_dir": "data/pokemon30/logos",
   "asset_count": 1137,
   "downloaded_count": 0,
   "skipped_count": 1137,

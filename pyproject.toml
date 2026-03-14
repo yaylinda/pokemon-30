@@ -1,9 +1,23 @@
 [project]
-name = "pokemon-30"
+name = "serebii-logos"
 version = "0.1.0"
-description = "Download Pokemon 30 logo assets from Serebii."
+description = "Download named logo sets from Serebii."
+readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "beautifulsoup4>=4.14.3",
     "requests>=2.32.5",
 ]
+
+[project.scripts]
+serebii-logos = "serebii_logos.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["serebii_logos"]
+
+[tool.uv]
+package = true
